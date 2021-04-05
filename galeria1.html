@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Uta no gyararī</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylo1.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header-video">
+        <video src="./video/p.mp4" autoplay loop muted></video>
+    </div>
+    <section>
+        <video id="slider" autoplay controls preload>
+                <source src="#" type="video/mp4">
+            </video>
+        <ul class="navegation">
+            <li onclick="videoUrl('./video/1.mp4')"><img src="./img/1.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/2.mp4')"><img src="./img/2.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/3.mp4')"><img src="./img/3.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/4.mp4')"><img src="./img/4.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/5.mp4')"><img src="./img/5.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/6.mp4')"><img src="./img/6.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/7.mp4')"><img src="./img/7.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/9.mp4')"><img src="./img/9.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/10.mp4')"><img src="./img/10.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/11.mp4')"><img src="./img/11.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/12.mp4')"><img src="./img/12.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/13.mp4')"><img src="./img/13.jpg" alt="#"></li>
+        </ul>
+        <div class="buttons">
+            <button class="up"> 
+                <a href="./index.html">Menyū</a>
+            </button>
+            <button type="button" class="close">
+                <a href="./galeria2.html">Ika</a>
+            </button>
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        function videoUrl(hmmmmmm) {
+            document.getElementById("slider").src = hmmmmmm;
+        }
+    </script>
+</body>
+
+</html>

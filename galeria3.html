@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Bideogyararī</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylo2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header-video">
+        <video src="./video/p.mp4" autoplay loop muted></video>
+    </div>
+    <section>
+        <video id="slider" autoplay controls preload>
+                <source src="#" type="video/mp4">
+            </video>
+        <ul class="navegation">
+            <li onclick="videoUrl('./video/btd.mp4')"><img src="./img/btd.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/tttm.mp4')"><img src="./img/tttm.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/maps.mp4')"><img src="./img/maps.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/apdh.mp4')"><img src="./img/apdh.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/dc.mp4')"><img src="./img/dc.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/morat.mp4')"><img src="./img/morat.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/ttq.mp4')"><img src="./img/ttq.jpg" alt="#"></li>
+            <li onclick="videoUrl('./video/adios.mp4')"><img src="./img/adios.jpg" alt="#"></li>
+        </ul>
+        <div class="buttons">
+            <button class="fill"> 
+                <a href="./galeria2.html">Modoru</a>
+            </button>
+            <button type="button" class="up">
+                <a href="./index.html">Menyū</a>
+            </button>
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        function videoUrl(hmmmmmm) {
+            document.getElementById("slider").src = hmmmmmm;
+        }
+    </script>
+</body>
+
+</html>
